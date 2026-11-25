@@ -1,6 +1,3 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Nguyễn Hoàng Thiên Kim – Portfolio quảng cáo sản phẩm</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;800&display=swap">
 <style>
 :root{--bg:#F5F8FD;--surface:#fff;--ink:#0A2F6B;--text:#2B3A55;--muted:#5C6B87;--blue:#2F5BE0;--line:#D9E2F2;--sage:#D3DB9C;--sky:#C4DCF3;--peach:#F2D3B8;--orange:#E8791A;--shadow:rgba(10,47,107,.14);
@@ -132,9 +129,6 @@ nav{gap:1rem}.feat{grid-template-columns:1fr}
 .contact{border-radius:32px 32px 0 0}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
-</style>
-</head>
-<body>
 <header><div class="wrap">
 <a class="logo" href="#top"><span class="notch"></span>Thiên Kim</a>
 <nav aria-label="Điều hướng"><a href="#gioi-thieu">Giới thiệu</a><a href="#tac-pham">Tác phẩm</a><a href="#cv">CV</a><a href="#lien-he">Liên hệ</a></nav>
@@ -281,4 +275,4 @@ function route(){
 window.addEventListener('hashchange',route);route();
 })();
 </script>
-</body>
+
